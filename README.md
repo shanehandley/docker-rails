@@ -1,3 +1,13 @@
+Originally cloned from https://github.com/nickjj/docker-rails-example
+
+- Changes rails configuration to serve as an API, removes view and controller code
+- Adds react client application (vite: react-typescript-swc via pnpm)
+
+The react client application is using node v20, varying the version will likely cause conflicts with
+the pnpm lockfile
+
+---
+
 # An example Rails + Docker app
 
 ![CI](https://github.com/nickjj/docker-rails-example/workflows/CI/badge.svg?branch=main)
